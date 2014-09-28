@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.0)
+    colorize (0.7.3)
+    ffi (1.9.5-java)
+    method_source (0.8.2)
+    pry (0.10.1-java)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+      spoon (~> 0.0)
+    rake (10.3.2)
+    slop (3.6.0)
+    spoon (0.0.4)
+      ffi
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  colorize
+  pry
+  rake
