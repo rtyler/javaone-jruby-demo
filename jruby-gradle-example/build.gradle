@@ -6,7 +6,6 @@ buildscript {
     dependencies {
         classpath group: 'com.github.jruby-gradle', name: 'jruby-gradle-jar-plugin', version: '0.1.1'
         classpath group: 'com.github.jruby-gradle', name: 'jruby-gradle-plugin', version: '0.1.+'
-        classpath group: 'org.jruby', name: 'jruby-complete', version: '1.7.16'
     }  
 }
 
