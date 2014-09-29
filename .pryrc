@@ -1,0 +1,2 @@
+Pry.config.theme = 'solarized'
+
