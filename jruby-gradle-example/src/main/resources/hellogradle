@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require 'rubygems'
+require 'colorize'
+
+puts "Hello from JRuby built with Gradle!".colorize(:green)

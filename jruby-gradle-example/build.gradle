@@ -15,8 +15,14 @@ apply plugin: 'com.github.johnrengelman.shadow'
 apply plugin: 'java'
 
 dependencies {
-    compile group: 'org.jruby', name: 'jruby-complete', version: '1.7.+'
-    gems group: 'rubygems', name: 'sinatra', version: '1.4.5'
+    compile group: 'org.jruby', name: 'jruby-complete', version: '1.7.15'
+    gems group: 'rubygems', name: 'colorize', version: '0.7.3'
+}
+
+jrubyJavaBootstrap {
+    jruby {
+        initScript = 'hellogradle'
+    }
 }
 
 shadowJar {
